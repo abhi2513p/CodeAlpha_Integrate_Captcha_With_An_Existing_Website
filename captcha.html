@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA Types</title>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+<body class="bg-light">
+    <div class="container mt-5 bg-white rounded shadow p-4">
+        <h1 class="text-center mb-4">Types of CAPTCHA</h1>
+        <p>CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a method used to differentiate between human users and automated bots on websites or online services. There are several types of CAPTCHA services, each with its own advantages and disadvantages. Here are some common types:</p>
+
+        <h2 class="mt-4">Image based CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Easy for humans to solve.</li>
+            <li>Can present a range of puzzles like identifying objects, characters, or distorted text.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Vulnerable to OCR (Optical Character Recognition) attacks that can bypass text-based puzzles.</li>
+            <li>Poses accessibility challenges for impaired users.</li>
+        </ul>
+
+        <h2 class="mt-4">Text based CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Easy for humans to solve.</li>
+            <li>Offers various challenges, such as identifying distorted characters, case sensitivity, or matching words.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Susceptible to OCR attacks.</li>
+            <li>Not user-friendly for individuals with impairments or language barriers.</li>
+        </ul>
+
+        <h2 class="mt-4">Audio based CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Provides an alternative for impaired users.</li>
+            <li>More challenging for bots compared to image-based CAPTCHAs.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Can be difficult to understand due to background noise or low-quality recordings.</li>
+            <li>Requires playback capabilities on the user's device.</li>
+        </ul>
+
+
+        <h2 class="mt-4">Checkbox CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>User typically requires an action like checking a box.</li>
+            <li>Can be combined with verification methods, for security.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantage</h5>
+        <ul style="list-style-type: circle;">
+            <li>Prone to click farming attacks where users are paid to solve CAPTCHAs.</li>
+            <li>Bots are capable of imitating human behavior for the sake of ticking off a checkbox.</li>
+        </ul>
+
+        <h2 class="mt-4">Slider CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Engaging and user-friendly.</li>
+            <li>Requires users to slide a puzzle piece to a location making it challenging for bots.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Users may find it frustrating if the slider is too sensitive or difficult to use.</li>
+            <li>Some advanced bots can still mimic human interactions.</li>
+        </ul>
+
+        <h2 class="mt-4">Behavior based CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Analyzes user behavior patterns to distinguish between humans and bots.</li>
+            <li>Intrusive and can provide a seamless user experience.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>May generate positives mistakenly blocking users who display unusual behavior.</li>
+            <li>Requires algorithms and data collection.</li>
+        </ul>
+
+        <h2 class="mt-4">Gamified CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Makes solving CAPTCHAs more enjoyable, for users.</li>
+            <li>Can deter bots by introducing challenges.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Development and integration might be more complex.</li>
+            <li>Requires user engagement, which may not always be ideal.</li>
+        </ul>
+
+        <h2 class="mt-4">Math CAPTCHA</h2>
+        <h5 class="text-secondary">Advantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Simple and easy for humans to solve.</li>
+            <li>Effective against automated scripts that struggle with math problems.</li>
+        </ul>
+        <h5 class="text-secondary">Disadvantages</h5>
+        <ul style="list-style-type: circle;">
+            <li>Limited challenge, as bots with basic math capabilities can still solve them.</li>
+            <li>May be perceived as too easy by advanced attackers.</li>
+        </ul>
+    </div>
+
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
